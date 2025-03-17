@@ -29,6 +29,5 @@ public class API_Testing_Token_Request {
         ValidatableResponse vr = response.then()
                                     .log().all().statusCode(200);
 
-
     }
 }

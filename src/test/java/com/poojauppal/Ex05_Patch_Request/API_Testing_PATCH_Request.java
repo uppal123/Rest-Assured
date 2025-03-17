@@ -28,5 +28,6 @@ public class API_Testing_PATCH_Request {
         Response response = r.when().log().all().patch();
 
         ValidatableResponse vr = response.then().log().all().statusCode(200);
+
     }
 }

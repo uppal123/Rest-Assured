@@ -34,7 +34,5 @@ public class API_Testing_POST_Request {
 
         ValidatableResponse vr = response.then().log().all().statusCode(200);
 
-
-
     }
 }

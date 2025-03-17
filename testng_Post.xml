@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test name ="All Test Suite">
         <classes>
-            <class name ="com.poojauppal.Ex06_DELETE_Request.API_Testing_Delete_Request" > </class>
+            <class name ="com.poojauppal.Ex02_POST_Request.API_Testing_POST_Request"></class>
         </classes>
     </test>
 </suite>

@@ -24,6 +24,5 @@ public class API_Testing_GET_Request {
         response = r.when().log().all().get();
 
         vr = response.then().log().all().statusCode(200);
-
     }
 }

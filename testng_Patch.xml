@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API_Test_Suite">
+    <test name="API_Testing">
+        <classes>
+            <class name ="com.poojauppal.Ex05_Patch_Request.API_Testing_PATCH_Request"/>
+        </classes>
+    </test>
+</suite>

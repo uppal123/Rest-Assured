@@ -24,5 +24,6 @@ public class API_Testing_Delete_Request {
         Response response = r.when().log().all().delete();
 
         ValidatableResponse vr = response.then().log().all().statusCode(201);
+
     }
 }
